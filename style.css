@@ -337,8 +337,6 @@ nav ul li a:hover::after {
   }
   .hero{
     overflow: visible;
-    min-height: auto;
-    padding: 4rem 2rem;
   }
 }
 
