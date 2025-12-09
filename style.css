@@ -317,15 +317,15 @@ nav ul li a:hover::after {
   }
 
   .line1 {
-    font-size: 2rem;
-  }
-
-  .line2 {
     font-size: 2.5rem;
   }
 
-  .line3 {
+  .line2 {
     font-size: 3rem;
+  }
+
+  .line3 {
+    font-size: 3.5rem;
   }
 
   .line1,
