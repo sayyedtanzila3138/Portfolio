@@ -51,7 +51,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: var(--ocean);
+  color: var(--primary);
   text-decoration: none;
   font-weight: 500;
   position: relative;
@@ -327,14 +327,17 @@ nav ul li a:hover::after {
   .line3 {
     font-size: 3.5rem;
   }
-}
 
-.line1,
-.line2,
-.line3 {
-  opacity: 1 !important;
-  transform: none !important;
-  animation: none !important;
+  .line1,
+  .line2,
+  .line3 {
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
+  }
+  .hero{
+    overflow: visible;
+  }
 }
 
 nav ul.show {
