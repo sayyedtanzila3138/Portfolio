@@ -89,6 +89,7 @@ nav ul li a:hover::after {
   padding: 0 2rem;
   position: relative;
   overflow: hidden;
+  z-index: 10;
 }
 
 .heading {
@@ -317,15 +318,15 @@ nav ul li a:hover::after {
   }
 
   .line1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .line2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .line3 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   .line1,
@@ -337,6 +338,8 @@ nav ul li a:hover::after {
   }
   .hero{
     overflow: visible;
+    min-height: auto;
+    padding: 4rem 2rem;
   }
 }
 
