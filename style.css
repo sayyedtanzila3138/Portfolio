@@ -307,7 +307,6 @@ nav ul li a:hover::after {
     padding: 4rem 2rem;
     text-align: left;
     transform: translateX(100%);
-    /* start off-screen right */
     transition: transform 0.5s ease;
     box-shadow: -5px 0 25px rgba(0, 0, 0, 0.1);
   }
@@ -328,6 +327,14 @@ nav ul li a:hover::after {
   .line3 {
     font-size: 3.5rem;
   }
+}
+
+.line1,
+.line2,
+.line3 {
+  opacity: 1 !important;
+  transform: none !important;
+  animation: none !important;
 }
 
 nav ul.show {
